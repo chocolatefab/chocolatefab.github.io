@@ -78,7 +78,7 @@ var Game = {
 	},
 
 	buttonUp: function(e){
-		if(e.keyCode === 49){
+		if(e.keyCode === 32){
 			Game.shooting = false;
 			Game.oneShot = false;
         e.preventDefault();
@@ -92,7 +92,7 @@ var Game = {
 	},
 
 	buttonDown: function(e){
-		if(e.keyCode === 49){
+		if(e.keyCode === 32){
 			Game.shooting = true;
 		}
 		if(e.keyCode === 37){
